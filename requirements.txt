@@ -1,0 +1,25 @@
+# Flask for API
+flask==2.3.3
+
+# PyTorch for model inference
+torch
+
+# Transformers for language models
+transformers
+
+# Diffusers for diffusion models
+diffusers
+
+# Install TTS from GitHub
+git+https://github.com/coqui-ai/TTS
+
+# Accelerate for optimized model loading and running
+accelerate
+
+# Scientific computing libraries
+scipy
+numpy
+
+# Image processing library
+Pillow
+
