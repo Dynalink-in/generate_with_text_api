@@ -2,24 +2,23 @@
 flask==2.3.3
 
 # PyTorch for model inference
-torch
+torch>=2.0.0  # Specify a minimum version to ensure compatibility
 
 # Transformers for language models
-transformers
+transformers>=4.30.0  # Ensure compatibility with diffusers
 
 # Diffusers for diffusion models
-diffusers
+diffusers>=0.17.0  # Specify a minimum version for stable model usage
 
-# Install TTS from GitHub
+# Coqui TTS for text-to-speech functionality
 git+https://github.com/coqui-ai/TTS
 
 # Accelerate for optimized model loading and running
-accelerate
+accelerate>=0.20.0  # Helps with efficient model parallelism and inference
 
 # Scientific computing libraries
-scipy
-numpy
+scipy>=1.10.0
+numpy>=1.24.0
 
 # Image processing library
-Pillow
-
+Pillow>=9.5.0  # Ensure it supports modern image formats
